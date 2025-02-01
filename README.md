@@ -1,4 +1,4 @@
-# Directory_Listing_Downloader
+# Directory Listing Downloader (Exfiltrator)
 For downloading directory listing enabled endpoints, useful during red team engagements instead of having to scour every file you can download the whole index and look through it locally. This also utilizes multithreading using threadpools and downloads files in chunks for efficient memory management.
 
 For example, it would work on a python one that's spun up using the following command:
@@ -53,5 +53,6 @@ TODOs:
 2. Simple refactoring of the code
 3. Support for future directory listing servers
 4. Rotating user agents for better operational security during engagements (OPSEC)
+5. Save failed downloads in an array and at the end ask the user if they would like to retry those downloads + save them in a file in case they fail again.
 
 
