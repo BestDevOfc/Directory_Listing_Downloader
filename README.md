@@ -52,5 +52,6 @@ TODOs:
 1. The initial process where it scrapes URLs to the files is not multi-threaded, in the future it will be.
 2. Simple refactoring of the code
 3. Support for future directory listing servers
+4. Rotating user agents for better operational security during engagements (OPSEC)
 
 
