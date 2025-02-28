@@ -42,6 +42,7 @@ class Scraper(object):
         
         # configured in main later
         self.pbar = None
+        # # self.pbar = tqdm(total=len(self.urls), desc="[ Checking Domains... ]", lock_args=[self.Lock])
 
         # for example Downlaoded_Tree_172783/homework/homework1.pdf, and other files
         self.root_dir = f"Downloaded_Tree_{time.time()}"
